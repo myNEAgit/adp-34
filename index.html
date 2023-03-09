@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ARTS AND CULTURAL PRODUCTION</title>
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7687732/731826/css/fonts.css" /> -->
+</head>
+
+<body>
+  <div id="kig-widget">
+    <div class="container-fluid">
+      <!-- top title -->
+      <div class="title wrap">
+        <h1>ARTS AND CULTURAL PRODUCTION</h1>
+      </div>
+      <!-- red section -->
+      <div class="wrap section-select">
+        <img src="res/img/main-img.svg" alt="" class="main-img">
+        <h3>Production of arts and cultural goods</h3>
+        <div class="dropup">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Select a contributing industry
+            <span class="caret"></span>
+          </button>
+          <ul id="industry-list" class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a role="button" data-industry="Total arts and culture">Total arts and culture</a></li>
+            <li><a role="button" data-industry="Performing arts companies">Performing arts companies</a></li>
+            <li><a role="button" data-industry="Performing arts presenters">Performing arts presenters</a></li>
+            <li><a role="button" data-industry="Independent artists, writers, and performers">Independent artists, writers, and performers</a></li>
+            <li><a role="button" data-industry="Museums (non-government)">Museums (non-government)</a></li>
+            <li><a role="button" data-industry="Fine arts schools">Fine arts schools</a></li>
+            <li><a role="button" data-industry="Specialized design services">Specialized design services</a></li>
+            <li><a role="button" data-industry="Architectural services">Architectural services</a></li>
+            <li><a role="button" data-industry="Photography and photo-finishing services">Photography and photo-finishing services</a></li>
+            <li><a role="button" data-industry="Creative advertising">Creative advertising</a></li>
+            <li><a role="button" data-industry="Computer systems design">Computer systems design</a></li>
+            <li><a role="button" data-industry="Government">Government</a></li>
+            <li><a role="button" data-industry="Publishing">Publishing</a></li>
+            <li><a role="button" data-industry="Motion picture and video industries">Motion picture and video industries</a></li>
+            <li><a role="button" data-industry="Sound recording">Sound recording</a></li>
+            <li><a role="button" data-industry="Web publishing and streaming">Web publishing and streaming</a></li>
+            <li><a role="button" data-industry="Broadcasting">Broadcasting</a></li>
+            <li><a role="button" data-industry="Jewelry and silverware manufacturing">Jewelry and silverware manufacturing</a></li>
+            <li><a role="button" data-industry="Musical instrument manufacturing">Musical instrument manufacturing</a></li>
+            <li><a role="button" data-industry="Arts-related construction">Arts-related construction</a></li>
+            <li><a role="button" data-industry="Arts retail trade">Arts retail trade</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- yellow section -->
+      <div class="wrap section-viz hide">
+        <div class="flex-wrap">
+          <div class="left">
+            <img src="res/img/money.svg" alt="" class="money-img hide-small">
+            <img src="res/img/money-mobile.svg" alt="" class="money-img hide-large">
+          </div>
+          <div class="right">
+            <div class="two-up top">
+              <p>Added</p>
+              <h1 id="value-added">$XXM</h1>
+              <p>to the U.S. economy (2021)</p>
+            </div>
+            <div class="two-up bottom">
+              <h1 id="avg-growth">+XX%</h1>
+              <p>Percentage change (2020-2021)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer wrap hide">
+        <p>Arts and cultural goods make up <span id="percent-industry" class="number-small">XX%</span> of your selected industry's total production</p>
+      </div>
+      <!-- <div class="people wrap hide">
+        <p><span id="people-employed" class="number-small">XX</span><span class="number-small">K</span> people employed</p>
+        <p class="small"><em>K = thousands</em></p>
+      </div> -->
+      <div class="disclaimer">
+        <p>
+          Arts and Cultural Production Satellite Account (ACPSA), 2020; U.S.
+          Bureau of Economic Analysis, National Endowment for the Arts
+        </p>
+        <p class="italic">B = billions</p>
+      </div>
+    </div>
+  </div>
+  <!-- JS below -->
+  <script src="js/vendor.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
